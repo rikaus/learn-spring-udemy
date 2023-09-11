@@ -8,7 +8,7 @@ public class App01GamingBasicJava {
 
         //var game = new SuperContra();
         //var game = new MarioGame();
-        
+
         var game = new PacMan();  // Creating a object
         var gameRunner =  new GameRunner(game);  //Object creation + Wiring of dependency
         gameRunner.run();
